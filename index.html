@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main class="main_flex">
+        <header class="main_header">
+            <h1 class="main_header_text"> Weather</h1>
+            <div class="container_high">
+                <div class="container__high">
+                    <span class="container_high_text">MINSK, BELARUS</span>
+                    <span class="container_high_data">Mon 28 October</span>
+                </div>
+            </div>
+            <div class="container_medium">
+                <div class="container__medium">
+                    <span class="container_medium_text">10<span class="container_medium_text_C">°</span></span>
+                    <div class="container___medium">
+                        <img class="container_medium_img cloud" src="./img/cloud_icon-icons.com_54315.png">
+                        <span class="container___medium_text">overcast</span>
+                        <span class="container___medium_text">Feels like: 7°</span>
+                        <span class="container___medium_text">Wind: 2 m/s </span>
+                        <span class="container___medium_text">Humidity: 83%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container_footer">
+                <div class="container__footer">
+                    <div class="tuesday_footer">
+                        <span class="tuesday_footer_text">Tuesday</span>
+                    </div>
+                    <div class="tuesday__footer">
+                        <span class="tuesday__footer_text">7<span class="tuesday__footer_C">°</span></span>
+                        <img class="tuesday__footer_img sun" src="./img/clear-sun_icon-icons.com_54320.png">
+                    </div>
+                </div>
+                <div class="container__footer">
+                    <div class="tuesday_footer">
+                        <span class="tuesday_footer_text">Wednesday</span>
+                    </div>
+                    <div class="tuesday__footer">
+                        <span class="tuesday__footer_text">6<span class="tuesday__footer_C">°</span></span>
+                        <img class="tuesday__footer_img rain" src="./img/rain-cloud_icon-icons.com_54268.png">
+                    </div>
+                </div>
+                <div class="container__footer">
+                    <div class="tuesday_footer">
+                        <span class="tuesday_footer_text">Thursday</span>
+                    </div>
+                    <div class="tuesday__footer">
+                        <span class="tuesday__footer_text">3<span class="tuesday__footer_C">°</span></span>
+                        <img class="tuesday__footer_img storm" src="./img/storm-cloud_icon-icons.com_54248.png">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="main_section">
+            <div class="container_search">
+                <input type="text" class="container_search_input" name="search" placeholder="Search city">
+                <button class="container_search_button">Search</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
